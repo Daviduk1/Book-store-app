@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./signin.css">
+</head>
+<body>
+
+    <div id="signin">
+        <form  id="signin-form">
+            <h1>Sign In</h1>
+            <input type="email" placeholder="Enter your email" id="email-input">
+            <input type="password" placeholder="Enter your password" id="password-input">
+            <label for="terms">
+                <input type="checkbox" name="terms" id="terms-input">
+                <span>
+                    By clicking sign in, you are agreeing to your privacy policy and terms of use
+
+                </span>
+            </label>
+            <button>sign In</button>
+        </form>
+
+
+    </div>
+    <div id="dashboard">
+        <h1>Welcome</h1>
+        <p>What would you like to read today?</p>
+        <input type="text" placeholder="search for aa book by anything. Ex : title, price" id="search-input">
+
+        <nav>
+            <button class="tab active">All</button>
+            <button class="tab">Fiction</button>
+            <button class="tab">Horror</button>
+            <button class="tab">Nutrition</button>
+        </nav>
+<ul id="books">
+
+</ul>
+</div>
+
+    <!-- script below -->
+    <script src="./signin .js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
